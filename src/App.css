@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 265px;
+  margin: 0 auto;
+  background: linear-gradient(90deg, blue, white, yellow);
+}
+button,button:hover{
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.3);
+}
+button:active{
+  position: relative;
+  top: 1px;
+}
+
+input[type="text"],
+input[type="submit"]{
+  display: block;
+  margin: 10px auto;
+  border: solid 1px black;
+  border: none;
+  border-bottom: solid 1px black;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  
+}
+#main-container{
+  background: url(./image/blue-clouds-day-53594.jpg);
+  padding: 5px;
+}
